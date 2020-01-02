@@ -16,6 +16,4 @@ Project is created with:
 
 ## To Do
 To do:
-* Use Userscore and metascore
-* Use Matplotlib
 * Most Rentable games (using score, average time played, and price) 
