@@ -4,7 +4,8 @@
 ## Table of contents
 * [Informações gerais](#Informações-gerais)
 * [Arquitetura do projeto](#arquitetura-do-projeto)
-* [Technologies](#technologies)
+* [Tecnologias](#tecnologias)
+* [Como utilizar o projeto](#como-utilizar-o-projeto)
 
 ## Informações gerais
 Neste desafio havia um arquivo de log.txt na qual deveria ser tratado e subido para um banco de dados relacional e a partir dele gerado alguns relatórios.
@@ -12,7 +13,7 @@ Neste desafio havia um arquivo de log.txt na qual deveria ser tratado e subido p
 ## Arquitetura do projeto
 Neste desafio foi separado em: data onde deverá conter os dados de input do projeto, src/ETL onde contem toda a lógica de extração, transformação e carga do projeto, src/utils, onde possui os codigos de ajuda para o ETL no projeto, como por exemplo o handle_json que converte o arquivo original para um arquivo json com padrões de um objeto json, src/database que possui os códigos de conexão com o banco de dados e criação das tabelas, scr/reports, que possui o código de geração dos reports do banco de dados e output onde contém os arquivos de outputs dos relatórios.
 
-## Technologies
+## Tecnologias
 Project is created with:
 * Python 3.8
 * MySQL 8.0
